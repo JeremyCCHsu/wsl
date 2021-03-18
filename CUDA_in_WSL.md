@@ -48,7 +48,11 @@ After registration, remember to update your Windows. It will take a about 20 min
 Download [NVIDIA Drivers for CUDA on WSL, including DirectML Support](https://developer.nvidia.com/cuda/wsl/download). You will most likely be using GeForce. You will need to register for an nVidia account first.
 
 <img src="etc/CUDA/nv-01.png" alt="register-for-wip" width="600"/>
+<<<<<<< HEAD
 c
+=======
+
+>>>>>>> aa0d130f40fa9691f429019bf7dc5e6f8458bf4d
 
 Download the driver and install it. This special version has the same GUI as the ordinary one, except that it enables CUDA under WSL 2.
 
@@ -91,4 +95,8 @@ If you see a `Test passed` message, you can enjoy your CUDA with WSL 2! Install 
 Here's what it looks like training a simple model on MNIST using PyTorch. Training looks good. `gpustat` is running although it cannot show the user/process using GPU RAM. Note that you need to use `nvidia-smi.exe` in WSL instead.
 
 
+<<<<<<< HEAD
 <img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
+=======
+<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
+>>>>>>> aa0d130f40fa9691f429019bf7dc5e6f8458bf4d
