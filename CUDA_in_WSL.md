@@ -48,11 +48,6 @@ After registration, remember to update your Windows. It will take a about 20 min
 Download [NVIDIA Drivers for CUDA on WSL, including DirectML Support](https://developer.nvidia.com/cuda/wsl/download). You will most likely be using GeForce. You will need to register for an nVidia account first.
 
 <img src="etc/CUDA/nv-01.png" alt="register-for-wip" width="600"/>
-<<<<<<< HEAD
-c
-=======
-
->>>>>>> aa0d130f40fa9691f429019bf7dc5e6f8458bf4d
 
 Download the driver and install it. This special version has the same GUI as the ordinary one, except that it enables CUDA under WSL 2.
 
