@@ -94,9 +94,12 @@ If you see a `Test passed` message, you can enjoy your CUDA with WSL 2! Install 
 
 Here's what it looks like training a simple model on MNIST using PyTorch. Training looks good. `gpustat` is running although it cannot show the user/process using GPU RAM. Note that you need to use `nvidia-smi.exe` in WSL instead.
 
+<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
 
-<<<<<<< HEAD
-<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
-=======
-<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
->>>>>>> aa0d130f40fa9691f429019bf7dc5e6f8458bf4d
+<br/>
+
+## Trouble-shooting
+Q: CUDA has been working fine, but now `torch.cuda.is_avalable()` returns `False`.  
+A: Reset (disable and then enable) your GPU driver in teh Device Manager. See this [thread](https://github.com/microsoft/WSL/issues/6014#issuecomment-793614646).
+
+<img src="etc/CUDA/wsl-restart-gpu-driver.png" alt="reset-driver" width="600"/>
