@@ -17,7 +17,7 @@ You can read the full instruction on NV's doc [here](https://docs.nvidia.com/cud
 ## Join Windows Insider Program
 First, click on the button on the lower left to  [register for the Windows Insider Program](https://insider.windows.com/en-us/getting-started#register).
 
-<img src="etc/CUDA/wip-01a.png" alt="register-for-wip" width="300"/>
+<img src="etc/CUDA/wip-01a.png" alt="register-for-wip" width="600"/>
 
 <br/>
 <hr/>
@@ -25,9 +25,9 @@ First, click on the button on the lower left to  [register for the Windows Insid
 Then, click 
 Windows Key > Settings > Update & Security > Windows Insider Program.
 Sign in and join the **Dev Channel**. 
-<img src="etc/CUDA/wip-03.jpg" alt="register-for-wip" width="300"/>
+<img src="etc/CUDA/wip-03.jpg" alt="register-for-wip" width="600"/>
 
-<img src="etc/CUDA/dev.png" alt="register-for-wip" width="300"/>
+<img src="etc/CUDA/dev.png" alt="register-for-wip" width="600"/>
 
 
 <details>
@@ -35,7 +35,7 @@ Sign in and join the **Dev Channel**.
         Make sure you turn on Diagnostic data
     </summary>
     <br>
-    <img src="etc/CUDA/wip-04.png" alt="register-for-wip" width="300"/>
+    <img src="etc/CUDA/wip-04.png" alt="register-for-wip" width="600"/>
 </details>
 
 
@@ -47,8 +47,8 @@ After registration, remember to update your Windows. It will take a about 20 min
 ## Install a special version of nVidia Driver for WSL
 Download [NVIDIA Drivers for CUDA on WSL, including DirectML Support](https://developer.nvidia.com/cuda/wsl/download). You will most likely be using GeForce. You will need to register for an nVidia account first.
 
-<img src="etc/CUDA/nv-01.png" alt="register-for-wip" width="300"/>
-c
+<img src="etc/CUDA/nv-01.png" alt="register-for-wip" width="600"/>
+
 
 Download the driver and install it. This special version has the same GUI as the ordinary one, except that it enables CUDA under WSL 2.
 
@@ -91,4 +91,4 @@ If you see a `Test passed` message, you can enjoy your CUDA with WSL 2! Install 
 Here's what it looks like training a simple model on MNIST using PyTorch. Training looks good. `gpustat` is running although it cannot show the user/process using GPU RAM. Note that you need to use `nvidia-smi.exe` in WSL instead.
 
 
-<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="300"/>
+<img src="etc/CUDA/pytorch.png" alt="register-for-wip" width="600"/>
