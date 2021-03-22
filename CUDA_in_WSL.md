@@ -98,3 +98,13 @@ Q: CUDA has been working fine, but now `torch.cuda.is_avalable()` returns `False
 A: Reset (disable and then enable) your GPU driver in the Device Manager. See this [thread](https://github.com/microsoft/WSL/issues/6014#issuecomment-793614646).
 
 <img src="etc/CUDA/wsl-restart-gpu-driver.png" alt="reset-driver" width="600"/>
+
+<br/>
+
+Q: `Temporary failure in name resolution.` Internet connection lost?! (Can't use github, wget, etc)  
+A: `sudo vim /etc/resolv.conf`  
+Add this line:  
+```
+nameserver 8.8.8.8
+```
+(Here I use Google's DNS; you can use any other DNS resolver.)
